@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  
+  height: 7vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2em;
+  
+}
+
+nav a {
+  color: white;
+}
+
+.container {
+  background-color: white;
+  z-index: 1;
+}
+
+.box {
+  height: 80vh;
+  width: 80vw;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 5px 15px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 2px 5px 15px 5px rgba(0, 0, 0, 0.35);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+}
+
+.NewClient {
+  margin-top: 3vh;
+  margin-left: 2vh;
+  height: 4vh;
+  width: 15vw;
+  border: none;
+  background-color: #18e229;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+table {
+  margin-top: 5vh;
+  width: 70vw;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.primario {
+  background-color: black;
+  color: white;
+}
+
+.Editar {
+  background-color: #18e229;
+  color: white;
+  border: 0;
+  height: 2em;
+  width: 4em;
+  font-size: 0.5em;
+  cursor: pointer;
+}
+
+.Excluir {
+  background-color: #e95612;
+  color: white;
+  border: 0;
+  height: 2em;
+  width: 4em;
+  font-size: 0.5em;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  padding: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  margin-top: -100vh;
+  
+ 
+}
+
+.showModal {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out,
+    opacity 0.25s ease-in-out; 
+}
+
+
+
+.modalContent {
+    background-color: white;
+    
+    height: 30vh ;
+    width: 50vw;
+    border-radius: 20px;
+    
+    
+    
+
+}
+.modalContent nav {
+   height: 5vh;
+   width: 45vw;
+  
+}
+
+.Navigation {
+    display: flex;
+}
+
+.Navigation span {
+    height: 5vh;
+    width: 6vw;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.acao {
+  display: flex;
+  justify-content: center;
+}
+
+.FormModal input {
+    height: 4vh;
+    width: 20vw;
+   
+}
+
+.FormModal {
+   display: flex;
+   flex-direction: column;
+   margin-top: 5vh;
+   align-items: center;
+   gap: 50px;
+   overflow: hidden;
+}
+
+.linha3 button {
+    height: 3vh;
+    width: 8vw;
+    margin-top: 2vh;
+    margin-left: 25%;
+    border: 0;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+
+    
+   
+
+}
+
+.salvar {
+    background-color: #18e229;
+}
+
+.Cancelar {
+
+    background-color: #e95612;
+
+}
+
+.NewClient:hover {
+  height: 5vh;
+  width: 11vw;
+  transition: 1s;
+  background-color: black;
+
+}
